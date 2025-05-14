@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Զամբյուղ - Տաթև Մարկետ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Վերնագիր / Navigation -->
+  <header>
+    <div class="logo">Տաթև Մարկետ</div>
+    <nav>
+      <ul>
+        <li><a href="../glxavor/index.html">Գլխավոր</a></li>
+        <li><a href="../mterqner/index.html">Մթերքներ</a></li>
+        <li><a href="../mer masin/index.html">Մեր Մասին</a></li>
+        <li><a href="#contact">Կապ</a></li>
+        <li><a href="#cart">🛒 Զամբյուղ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Զամբյուղի Բովանդակություն -->
+  <section class="cart-section">
+    <h2 class="center-title">Ձեր Զամբյուղը 🛒</h2>
+    <div id="cart-items">
+      <div class="cart-item">
+        <img src="https://www.sas.am/upload/iblock/6bc/2aa140ce474e0786a755763f7e230528.jpg" alt="Խնձոր" class="cart-item-image">
+        <p class="cart-item-name">Խնձոր 🍏</p>
+        <p class="cart-item-price">1000 Դրամ / Քմ</p>
+        <button class="remove-btn">Հեռացնել</button>
+      </div>
+
+      <div class="cart-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVggq2KCDLtaXfM4ossPbKRFKGpzg7vnSIAw&s" alt="Տոմատ" class="cart-item-image">
+        <p class="cart-item-name">Տոմատ 🍅</p>
+        <p class="cart-item-price">1500 Դրամ / Քմ</p>
+        <button class="remove-btn">Հեռացնել</button>
+      </div>
+
+      <!-- Այստեղ կարող ես ավելացնել այլ ապրանքներ -->
+    </div>
+
+    <div class="cart-total">
+      <p>Ընդհանուր գումար: <span id="total-price">2500 Դրամ</span></p>
+    </div>
+
+    <button class="btn" id="checkout-btn">Արժեքը հաստատել</button>
+  </section>
+
+</body>
+</html>
